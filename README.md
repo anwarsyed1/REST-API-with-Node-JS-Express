@@ -1,6 +1,7 @@
 <h1>REST API for Medical Clinic Database Project (Node JS & Express)</h1>
 
-<img src="https://imgur.com/MCDuyWe.png" height="80%" width="80%" alt="diagram"/>
+<img src="https://imgur.com/59ulpCp.png" height="80%" width="80%" alt="diagram"/>
+<img src="https://imgur.com/Toy5vt4.png" height="80%" width="80%" alt="diagram"/>
 
 <h2>Description</h2>
 In this project, I setup a REST API that tracks a Medical Clinics database. The API will be able to get, create, update, and delete patient information. This lab is done using Python and JSON on Virtual Studio Code. I also use Node JS and Express to run the server, and Postman to send data. This is a step by step guide so feel free to follow along! 

@@ -1,6 +1,6 @@
 <h1>REST API for Medical Clinic Database Project (Node JS & Express)</h1>
 
-<img src="https://imgur.com/59ulpCp.png" height="80%" width="80%" alt="diagram"/>
+<img src="https://imgur.com/dgYs8Ga.png" height="80%" width="80%" alt="diagram"/>
 <img src="https://imgur.com/Toy5vt4.png" height="80%" width="80%" alt="diagram"/>
 
 <h2>Description</h2>

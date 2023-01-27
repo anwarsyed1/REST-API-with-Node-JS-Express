@@ -60,51 +60,23 @@ Then created another if statement to verify if the firstname and lastname match 
 <img src="https://imgur.com/INiv9Ii.png" height="80%" width="80%" alt="Cyber Attack Event Management"/>
 <br />
 <br />
-For the next function, to create a new patient we want to be able to assert a new patient from the header to the database. So if the patients sin match equals the firstname, lastname, and phone. then add the patient to the database with a status 200 (OK):  
+For the next function, We will use the POST method to create a new patient we want to be able to assert a new patient from the header to the database. So if the patients sin match equals the firstname, lastname, and phone. then add the patient to the database with a status 200 (OK):  
 <br/>
 <img src="https://imgur.com/W5alK8v.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Create a custom log thats linked to the txt file with all the failed login attempts Geo Data:  <br/>
-<img src="https://imgur.com/pOMAErE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Next create a funtion for updating a patients phone number, we need to verify the sin, verify if the first and last name match the sin, then we can use the PUT method to update the phone number and return the updated database in the body:  <br/>
+<img src="https://imgur.com/TkkHxBu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Using the SQL Query in logs, observe the data from the custom log:  <br/>
-<img src="https://imgur.com/feqrZqR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Lastly we will create a funtion to delete patients and medical records, again we need to verify if the patients sin exists in the database, verify if the sin matches with the first and last name, then we are able to delete the patient or records from our database using the DELETE Method. Else return error code with JSON message indicating the credentials dont match the sin on file:  <br/>
+<img src="https://imgur.com/vXCpzaR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Extract the fields from raw custom logs:  <br/>
-<img src="https://imgur.com/jLsYsXo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 <br />
-<br />
-Check custom fields to confirm before testing:  <br/>
-<img src="https://imgur.com/AHNYV0x.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Test new custom fields which were extracted to see if they collect the data:  <br/>
-<img src="https://imgur.com/rjCRuf2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Create Microsoft Sentinel:  <br/>
-<img src="https://imgur.com/Ij2CQgX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Within Microsoft Sentinel, setup a map in workbooks using longitude and latitude:  <br/>
-<img src="https://imgur.com/TnOTZlc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Use the following SQL Query to isolate which data to be shown, and the following map settings to display on world map:  <br/>
-<img src="https://imgur.com/jkC9uK0.png" height="80%" width="80%" alt="workbook setup"/>
-<img src="https://imgur.com/TAeiN3Q.png" height="80%" width="80%" alt="workbook setup"/>
-<img src="https://imgur.com/F7WlgYG.png" height="80%" width="80%" alt="workbook setup"/>
-<br />
-<br />
-After a couple hours the VM will be found by the cyber attackers of the world. Now you can observe Geo Data from where your VM is being breached!:  <br/>
-<img src="https://imgur.com/srMTOOG.png" height="80%" width="80%" alt="Cyber Attack Event Management"/>
-<br />
-<br />
-This Concludes This Microsoft Azure SIEM Project!
-NOTE: You can toggle map setting to display other custom fields  <br/>
+This Concludes This REST API for a Medical Clinic Project!
+NOTE: You can build on this and add more decurity layers and conditions as it would be in real life!  <br/>
 <br />
 </p>
 

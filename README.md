@@ -60,8 +60,9 @@ Then created another if statement to verify if the firstname and lastname match 
 <img src="https://imgur.com/INiv9Ii.png" height="80%" width="80%" alt="Cyber Attack Event Management"/>
 <br />
 <br />
-Save script as log file and it'll create a txt file with all the failed login attempts Geo Data :  <br/>
-<img src="https://imgur.com/BTvCbJb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+For the next function, to create a new patient we want to be able to assert a new patient from the header to the database. So if the patients sin match equals the firstname, lastname, and phone. then add the patient to the database with a status 200 (OK):  
+<br/>
+<img src="https://imgur.com/W5alK8v.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Create a custom log thats linked to the txt file with all the failed login attempts Geo Data:  <br/>

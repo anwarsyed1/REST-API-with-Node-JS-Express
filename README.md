@@ -18,6 +18,7 @@ In this project, I setup a REST API that tracks a Medical Clinics database. The 
 
 - <b>Virtual Studio Code</b>
 - <b>Postman</b>
+- <b>Windows 10</b>
 
 <h2>Program walk-through:</h2>
 
@@ -30,24 +31,25 @@ Install the following packages and ensure VS Code is running as adminstrator to 
 <img src="https://imgur.com/efz3U4F.png" height="80%" width="80%" alt="set up"/>
 <br />
 <br />
-Create a Log Analytics Workspace to log the inbound traffic to the VM: <br/>
-<img src="https://imgur.com/WVrBleM.png" height="80%" width="80%" alt="set up"/>
+Create a js file named whatever, in our case index.js in your API folder directory. I then built a simple outline of the API running on localhost port 3000 which I will build on to. Use the command "nodemon index.js" to start the Node JS server.: <br/>
+<img src="https://imgur.com/mYdDrgM.png" height="80%" width="80%" alt="set up"/>
 <br />
 <br />
-Connect the Log Analytics Workspace to the VM:  <br/>
-<img src="https://imgur.com/cvc2aWg.png" height="80%" width="80%" alt="set up"/>
+Here is the outline of the API and its functionalities, as well as Postman being tested and used to POST, PUT, DELETE, and GET. We will be using header for authentication and body for miscellaneous purposes (reason why I used bodyParser):  <br/>
+<img src="https://imgur.com/IuvhRab.png" height="80%" width="80%" alt="set up"/>
 <br />
 <br />
-Run the VM and connect to it via Remote Desktop Connection:  <br/>
-<img src="https://imgur.com/cywVdub.png" height="80%" width="80%" alt="set up"/>
+Build the database for the medical records and the patients:  <br/>
+<img src="https://imgur.com/9YZZJq1.png" height="80%" width="80%" alt="set up"/>
 <br />
 <br />
-Turn off Windows Firewall within the RDC VM:  <br/>
-<img src="https://imgur.com/blLn2D8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Now I will begin working on the functionalities, for the GET method there are a couple things we need to verify as shown below before we can provide the medical records. I've also logged the headers data from Postman to my server to test if the data is being recieved correctly:  <br/>
+<img src="https://imgur.com/jKDTMRz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/bwIMDYd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Test ping from personal computer to VM:  <br/>
-<img src="https://imgur.com/pfj1r2L.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+I then created a if statement which checks to verify that if the values in the "sin" header does not match then respond with a status 404 code using a JSON message "Patient not found":  <br/>
+<img src="https://imgur.com/edFEDXC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Get an API Key if you dont already have one (ipgeolocation.io):  <br/>

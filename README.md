@@ -69,14 +69,14 @@ Next create a funtion for updating a patients phone number, we need to verify th
 <img src="https://imgur.com/TkkHxBu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Lastly we will create a funtion to delete patients and medical records, again we need to verify if the patients sin exists in the database, verify if the sin matches with the first and last name, then we are able to delete the patient or records from our database using the DELETE Method. Else return error code with JSON message indicating the credentials dont match the sin on file:  <br/>
+Lastly we will create a funtion to delete patients and medical records, again we need to verify if the patients sin exists in the database, verify if the sin matches with the first and last name, then we are able to delete the patient or records from our database using the DELETE Method. Else return error code with JSON message indicating the credentials don't match the sin on file:  <br/>
 <img src="https://imgur.com/vXCpzaR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 
 <br />
 This Concludes This REST API for a Medical Clinic Project!
-NOTE: You can build on this and add more decurity layers and conditions as it would be in real life!  <br/>
+NOTE: You can build on this and add more security layers and conditions as it would be in real life!  <br/>
 <br />
 </p>
 

@@ -53,8 +53,7 @@ I then created a if statement which checks to verify that if the values in the "
 <br />
 <br />
 Then created another if statement to verify if the firstname and lastname match with the corresponding sin. If successfull return status 200 (OK) with the mediacal record and a JSON message, else return an error JSON message with status 401 (unauthorized):  <br/>
-<img src="https://imgur.com/55RDEz9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://imgur.com/INiv9Ii.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/undefined.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 :  <br/>

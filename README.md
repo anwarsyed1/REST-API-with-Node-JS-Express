@@ -52,12 +52,13 @@ I then created a if statement which checks to verify that if the values in the "
 <img src="https://imgur.com/edFEDXC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Then created another if statement to verify if the firstname and lastname match with the corresponding sin. If successfull return status 200 (OK) and a JSON message, else return an error JSON message with status 401 (unauthorized):  <br/>
+Then created another if statement to verify if the firstname and lastname match with the corresponding sin. If successfull return status 200 (OK) with the mediacal record and a JSON message, else return an error JSON message with status 401 (unauthorized):  <br/>
 <img src="https://imgur.com/55RDEz9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/INiv9Ii.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Run custom script with your API Key on Windows PowerShell ISE to get Geo Data from attackers :  <br/>
-<img src="https://imgur.com/IZv9ErM.png" height="80%" width="80%" alt="Cyber Attack Event Management"/>
+:  <br/>
+<img src="https://imgur.com/INiv9Ii.png" height="80%" width="80%" alt="Cyber Attack Event Management"/>
 <br />
 <br />
 Save script as log file and it'll create a txt file with all the failed login attempts Geo Data :  <br/>

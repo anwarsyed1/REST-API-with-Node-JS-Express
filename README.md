@@ -35,7 +35,7 @@ Create a js file named whatever, in our case index.js in your API folder directo
 <img src="https://imgur.com/mYdDrgM.png" height="80%" width="80%" alt="set up"/>
 <br />
 <br />
-Here is the outline of the API and its functionalities, as well as Postman being tested and used to POST, PUT, DELETE, and GET. We will be using header for authentication and body for miscellaneous purposes (reason why I used bodyParser):  <br/>
+Here is the outline of the API and its functionalities, as well as the use of Postman to send API request to our REST API (POST, PUT, DELETE, and GET). We will be using header for authentication and body for miscellaneous purposes (reason why I used bodyParser):  <br/>
 <img src="https://imgur.com/IuvhRab.png" height="80%" width="80%" alt="set up"/>
 <br />
 <br />
@@ -48,11 +48,11 @@ Now I will begin working on the functionalities, for the GET method there are a 
 <img src="https://imgur.com/bwIMDYd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-I then created a if statement which checks to verify that if the values in the "sin" header does not match then respond with a status 404 code using a JSON message "Patient not found":  <br/>
+I then created a if statement which checks to verify that if the values in the "sin" header does not match then respond with a status 404 code using a JSON message "Patient not found".:  <br/>
 <img src="https://imgur.com/edFEDXC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Get an API Key if you dont already have one (ipgeolocation.io):  <br/>
+Then created another if statement to verify if the firstname and lastname match with the corresponding sin. If successfull return status 200 (OK) and a JSON message, else return an error JSON message with status 401 (unauthorized):  <br/>
 <img src="https://imgur.com/55RDEz9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
